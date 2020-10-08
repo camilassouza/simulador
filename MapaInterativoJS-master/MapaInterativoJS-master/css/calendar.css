@@ -1,0 +1,473 @@
+#simulador-data {
+	font-family: Tenda; 
+        box-shadow: 5px 5px #FAD6D9;
+}
+
+.simulador-box-date {
+	height: 170px;
+	background: #BA2430;
+	width: 230px;
+	position: relative;
+}
+
+div.ui-datepicker-header a.ui-datepicker-prev,
+div.ui-datepicker-header a.ui-datepicker-next {
+	display: none;
+}
+
+.ui-datepicker .ui-datepicker-title {
+	margin: inherit;
+	line-height: 1.8em;
+	text-align: center;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width: 48%;
+	font-family: Tenda;
+	border: inherit;
+	margin: 1%;
+}
+
+.ui-datepicker select {
+	-webkit-writing-mode: horizontal-tb !important;
+	text-rendering: auto;
+	color: -internal-light-dark(black, white);
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	appearance: menulist;
+	box-sizing: border-box;
+	align-items: center;
+	white-space: pre;
+	-webkit-rtl-ordering: logical;
+	background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+	cursor: default;
+	margin: 0em;
+	font: 400 13.3333px Arial;
+	border-radius: 0px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: inherit;
+	border-image: initial;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.ui-widget-header {
+	border: none;
+	background: #fff;
+	font-weight: bold;
+	font-size: 18.6833px;
+	line-height: 19px;
+	color: #424242;
+}
+
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+	font-family: Tenda;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 9.3591px;
+	line-height: 10px;
+	color: #424242;
+}
+
+.ui-widget-content .ui-state-default:hover {
+	background: #ba2430b3;
+	color: #fff;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+	border: inherit;
+	background: #D12633 !important;
+	color: #fff;
+}
+
+.ui-datepicker table {
+	width: 90%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.ui-datepicker .ui-datepicker-title {
+	margin: inherit;
+	line-height: 1.8em;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+.ui-widget.ui-widget-content {
+	border: none;
+}
+
+section#simulador-data {
+	width: 280px;
+	box-shadow: 4px 3px #FAD6D9;
+}
+
+select::-webkit-scrollbar {
+	width: 12px;
+}
+
+select::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: rgba(255, 0, 0, 0.8);
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+select::-webkit-scrollbar-track {
+	background-color: #F4F4F4;
+}
+
+select::-webkit-scrollbar {
+	width: 6px;
+	background: #F4F4F4;
+}
+
+select::-webkit-scrollbar-thumb {
+	background: #dad7d7;
+}
+
+
+/* simulador-CAKE */
+
+.simulador-cake {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: -50px;
+        width: 100px;
+        height: 100px;
+        z-index: 5;
+}
+
+.velas {
+        background: #DBCFAB;
+        border-radius: 0px 0px 20px 20px;
+        position: absolute;
+        margin-left: -2.5px;
+        margin-top: -22.333333px;
+        width: 8px;
+        height: 36.666667px;
+        top: 25%;
+        z-index: 6;
+}
+
+.velas-one {left: 20%;}
+.velas-two {left: 40%;}
+.velas-tree {left: 60%;}
+.velas-four {left: 80%;}
+
+.velas-corda{
+        background: #707070;
+        width: .5px;
+        height: 10px;
+        position: absolute;
+        top: -10px;
+        left: 3.5px;
+}
+
+.fuego {
+	border-radius: 100%;
+	box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+	position: absolute;
+	margin-left: -3.33333333px;
+	width: 6.66666667px;
+        height: 12.5px;
+        top: -45%;
+}
+
+.fuego-one {left: 50%;}
+.fuego-two {left: 60%;}
+.fuego-tree {left: 50%;}
+.fuego-four {left: 50%;}
+
+.fuego:nth-child(1) {
+	-webkit-animation: fuego 2s infinite;
+	animation: fuego 2s infinite;
+}
+
+.fuego:nth-child(2) {
+	-webkit-animation: fuego 1.5s infinite;
+	animation: fuego 1.5s infinite;
+}
+
+.fuego:nth-child(3) {
+	-webkit-animation: fuego 1s infinite;
+	animation: fuego 1s infinite;
+}
+
+.fuego:nth-child(4) {
+	-webkit-animation: fuego 0.5s infinite;
+	animation: fuego 0.5s infinite;
+}
+
+.fuego:nth-child(5) {
+	-webkit-animation: fuego 0.2s infinite;
+	animation: fuego 0.2s infinite;
+}
+
+@-webkit-keyframes fuego {
+	0% {
+		background: rgba(254, 248, 97, 0.5);
+		-webkit-transform: translateY(0) scale(1);
+		transform: translateY(0) scale(1);
+	}
+	50% {
+		background: rgba(255, 50, 0, 0.1);
+		-webkit-transform: translateY(-20px) scale(0);
+		transform: translateY(-20px) scale(0);
+	}
+	100% {
+		background: rgba(254, 248, 97, 0.5);
+		-webkit-transform: translateY(0) scale(1);
+		transform: translateY(0) scale(1);
+	}
+}
+
+@keyframes fuego {
+	0% {
+		background: rgba(254, 248, 97, 0.5);
+		-webkit-transform: translateY(0) scale(1);
+		transform: translateY(0) scale(1);
+	}
+	50% {
+		background: rgba(255, 50, 0, 0.1);
+		-webkit-transform: translateY(-20px) scale(0);
+		transform: translateY(-20px) scale(0);
+	}
+	100% {
+		background: rgba(254, 248, 97, 0.5);
+		-webkit-transform: translateY(0) scale(1);
+		transform: translateY(0) scale(1);
+	}
+}
+
+
+/* ============================================== Frosting
+*/
+
+.cobertura {
+        background: #40291A;
+        position: absolute;
+        top: 38%;
+        left: 18%;
+        margin-left: -27.77777778px;
+        margin-top: -5px;
+        width: 120px;
+        height: 12.5px;
+        z-index: 5;
+        border-radius: 100%;
+}
+
+
+.cobertura:after {
+	top: 6.66666667px;
+	right: 14.28571429px;
+}
+
+.cobertura:before {
+	top: 10px;
+	right: 9.09090909px;
+}
+
+.bizcocho {
+        background: #54331C;
+        position: absolute;
+        bottom: 0;
+        left: 16%;
+        margin-left: -25px;
+        width: 120px;
+        height: 60px;
+}
+
+
+/* STAR */
+#star-one {
+        height: 150px;
+        position: relative;
+        left: -60px;
+        top: 20px;
+    }
+
+@keyframes star {
+	to {
+		zoom: 10%;
+		opacity: 0;
+	}
+	from {
+		zoom: 100% opacity:1;
+	}
+}
+
+.star {
+	animation-name: star;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-direction: alternate;
+}
+
+@keyframes star1 {
+	to {
+		opacity: 0;
+	}
+	from {
+		opacity: 1;
+	}
+}
+
+.star1 {
+	animation-name: star1;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-direction: alternate;
+}
+
+@keyframes star2 {
+	0% {
+		opacity: 1;
+	}
+	45% {
+		opacity: 1;
+	}
+	55% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.star2 {
+	animation-name: star2;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-direction: alternate;
+}
+
+#star-two {
+        position: absolute;
+        top: 10px;
+        left: 110px;
+        width: 100%;
+        height: 100%;
+}
+
+#star-tree {
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 40%;
+        height: 100%;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+        font-weight: normal;
+        color: #424242;
+        text-align: center;
+        background: #fff;
+        border-radius: 100px;
+        width: 25px;
+        height: 24px;
+        margin: 0px;
+        font-family: Tenda;
+        display: grid;
+        align-items: center;
+        border: inherit;
+        text-decoration: inherit;
+        font-size: 12px;
+}
+
+#datepicker {
+        z-index: 2;
+        position: relative;
+        display: block;
+        background: #fff;
+        padding: 10px;
+}
+.simulador-calendar-content{
+        max-width: 250px;
+        margin: auto;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+        color: #fff;
+        box-shadow: 2px 1px 1px #3c3b3b85;
+    }
+
+    /* MOLA */
+    .calendar-alca-one {
+        background: #8A8A8A;
+        border-radius: 0;
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 20px;
+        top: -13px;
+    }
+    
+    .calendar-alca-two {
+        background: #8A8A8A;
+        border-radius: 0;
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 20px;
+        margin-left: 7px;
+        top: -13px;
+    }
+    .calendar-alca {
+        background: #2B2929;
+        width: 20px;
+        height: 10px;
+        position: relative;
+        top: 0;
+        padding: 0px 5px 0px 5px;
+        margin: 5px auto;
+        z-index: 3;
+    }
+    .content-calendar-alca{
+        display: flex;
+        position: absolute;
+        width: 100%;
+    }
+    .bizcocho-down {
+        background: #4b341d;
+        position: absolute;
+        top: 98%;
+        left: 18%;
+        margin-left: -27.77777778px;
+        margin-top: -5px;
+        width: 120px;
+        height: 12.5px;
+        z-index: 5;
+        border-radius: 100%;
+    }
+
+    select::-webkit-scrollbar {width: 12px;        }
+    select::-webkit-scrollbar-track {-webkit-box-shadow: inset006pxrgba(0,0,0,0.3); border-radius: 10px;}
+    select::-webkit-scrollbar-thumb {border-radius: 10px;-webkit-box-shadow: inset006pxrgba(0,0,0,0.5); 

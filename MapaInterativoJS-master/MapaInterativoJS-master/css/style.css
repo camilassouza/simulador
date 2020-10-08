@@ -1,0 +1,122 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Tenda !important;
+    scroll-behavior: smooth;
+  }
+  .oculta-section{
+    display: none !important;
+  }
+  path {
+    stroke: rgb(0 0 0);
+    stroke-width: 1px;
+}
+path:hover{
+    fill: red;
+}
+path:visited{
+    fill: green;
+}
+rect {
+  fill: #efeedc00;
+}
+#simulador-mapa{
+  background: #EFEEDC;
+}
+.simulador-mapa-content-select-state {
+  position: absolute;
+  bottom: 0;
+  background: #efeedc;
+  right: 0;
+  width: 200px;
+  text-align: center;
+}
+span#estado {
+    font-family: Tenda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+div#dadosLojas {
+    font-family: Tenda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: #070707;
+}
+
+.simulador-numbers p{
+  padding: 0px;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.simulador-number{
+  font-family: Tenda;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 0;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  border: solid 6px;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  align-items: center;
+}
+.number-one {
+  left: 665px;
+  top: 39px;
+}
+
+.number-two {
+  left: 890px;
+  top: 39px;
+}
+.number-tree {
+  left: 1105px;
+  top: 205px;
+}
+.number-four {
+  left: 1076px;
+  top: 556px;
+}
+
+.flecha {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation:  animation-flecha 5s infinite;
+  -webkit-animation-name: animation-flecha;
+          animation-name: animation-flecha;
+}
+.flecha {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+.flecha {
+  -webkit-animation-delay: .7s;
+          animation-delay: .7s;
+}
+
+@-webkit-keyframes animation-flecha {
+  from {top: 0px;}
+  to {top: 20px;}
+}
+
+@keyframes animation-flecha {
+  from {top: 0px;}
+  to {top: 20px;}
+}

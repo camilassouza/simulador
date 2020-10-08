@@ -1,0 +1,103 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    overflow: hidden;
+    margin: 0px;
+    background: url(../bgteste.jpg);
+    background-repeat: no-repeat;
+    transition: all 2s;
+    background-position: -690px -160px;
+    background-size: 3330px;
+  }
+  #section1 {
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+  }
+  #section2 {
+      height: 100vh;
+      overflow: hidden;
+      display: flex !important;
+      align-items: center;
+  }
+  .simulador-content-box{
+    display: flex;
+    align-items: center;
+  }
+  .simulador-title{
+    font-family: Tenda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+  }
+  .simulador-description{
+    font-family: Tenda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 166.6%;
+    text-align: center;
+    color: #343434;
+  }
+  .simulador-description-bold{
+    font-family: Tenda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+  }
+  .simulador-btn-avancar,
+  .simulador-btn-avancar:disabled{
+    border-radius: 30px;
+    border: inherit;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+
+  }
+  .simulador-btn-avancar:disabled {background: #ABABAB;}
+  .simulador-btn-avancar {background: #ED1C24; cursor: pointer; font-family: Tenda;}
+  .selecione-valor{
+    font-family: Tenda;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #070707;
+    width: 250px;
+    margin: 30px auto;
+  }
+  input[type=number] {
+    border: none;
+    text-align: center;
+    font-size: 1.6em;
+    color: gray;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+}
+
+.value-renda-text{
+  border-bottom: solid 2px;
+  font-family: Tenda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28.5825px;
+  line-height: 29px;
+  color: #6A6A6A;
+  margin-bottom: 30px;
+  width: 190px;
+  margin: 0px auto 40px auto;
+}
+.box-separation{
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}

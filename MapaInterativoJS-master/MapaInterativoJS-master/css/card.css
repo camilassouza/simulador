@@ -1,0 +1,112 @@
+.box-card {
+    position: relative;
+}
+.carta {
+    width: 110px;
+    height: 180px;
+    background: #C60E00;
+    position: absolute;
+    z-index: 3;
+    border: inherit;
+    cursor: pointer;
+}
+
+.carta-positiva-content {
+    transform: rotate(-149.96deg);
+    left: 70px;
+    top: -80px;
+}
+.carta-positiva {
+    position: absolute;
+    left: 180px;
+    top: 21px;
+}
+.carta-negativa-content {
+    transform: rotate(-209.96deg);
+    left: 50px;
+    top: -30px;
+}
+.carta-interno-content:active,
+.carta:active {
+    background: green;
+    transition: .5s;
+}
+.carta-interno-content:hover,
+.carta:hover {
+    background:#5DB3D4
+}
+
+.carta-interno {
+    height: 100%;
+    padding: 10px;
+}
+.carta-interno-content {
+    background: red;
+    transform: rotate(-179.96deg);
+    border: solid 1px #fff;
+    display: block;
+    margin: auto;
+    height: 155px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-family: Tenda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    font-size: 30px !important;
+    color: #FFFFFF;
+}
+.mao-direita-2 {
+    position: absolute;
+    z-index: 4;
+    top: 12px;
+    left: 69px;
+    width: 90px;
+}
+.mao-direita-1 {
+    position: absolute;
+    z-index: 2;
+    width: 130px;
+    left: 100px;
+    top: -50px;
+}
+
+img.mao-esquerda-1 {
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    width: 130px;
+}
+.mao-esquerda-2 {
+    position: absolute;
+    left: 78px;
+    top: 70px;
+    z-index: 3;
+    width: 80px;
+}
+.carta-positiva {
+    position: absolute;
+    left: 170px;
+}
+.box-card {
+    position: relative;
+    width: 390px;
+    display: block;
+}
+.carta-negativa {
+    position: relative;
+    top: -28px;
+}
+.box-card-two {
+    position: relative;
+    top: 150px;
+    left: -60px;
+}
+.box-card-tree {
+    position: relative;
+    width: 390px;
+    display: block;
+    left: -70px;
+    top: 150px;
+}
